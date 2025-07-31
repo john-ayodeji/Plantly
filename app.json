@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "Plantly",
+    "slug": "plantly",
+    "scheme": "plantly",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.plantly"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "node_modules/@expo-google-fonts/caveat/400Regular/Caveat_400Regular.ttf"
+          ]
+        }
+      ],
+      "expo-font",
+      [
+      "expo-quick-actions",
+      {
+        "androidIcons": {
+          "leaf": {
+            "foregroundImage": "./assets/leaf.png",
+            "backgroundColor": "white"
+          }
+        }
+      }
+      ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "08a4abff-247a-47d2-adef-e69d410127d3"
+      }
+    },
+    "owner": "john-ayodeji"
+  }
+}
