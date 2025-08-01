@@ -40,16 +40,17 @@
       ],
       "expo-font",
       [
-      "expo-quick-actions",
-      {
-        "androidIcons": {
-          "leaf": {
-            "foregroundImage": "./assets/leaf.png",
-            "backgroundColor": "white"
+        "expo-quick-actions",
+        {
+          "androidIcons": {
+            "leaf": {
+              "foregroundImage": "./assets/leaf.png",
+              "backgroundColor": "white"
+            }
           }
         }
-      }
-      ]
+      ],
+      "react-native-edge-to-edge"
     ],
     "extra": {
       "router": {},
