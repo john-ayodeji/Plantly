@@ -45,7 +45,7 @@
           "androidIcons": {
             "leaf": {
               "foregroundImage": "./assets/leaf.png",
-              "backgroundColor": "white"
+              "backgroundColor": "#ffffff"
             }
           }
         }
